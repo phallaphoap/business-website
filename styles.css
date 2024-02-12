@@ -1,0 +1,84 @@
+/* External Stylesheet */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Adjust the logo styles for circular shape */
+.logo {
+    max-width: 80px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make it circular */
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FF4500;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 30px; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.hero {
+    background-image: url('blood-main-white.jpeg');
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF4500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #222;
+}
